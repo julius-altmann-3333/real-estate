@@ -1,5 +1,9 @@
 // cityData.js
 const cityData = {    
+    "Afghanistan": ["Kabul", "Herat", "Mazar-i-Sharif", "Kandahar", "Jalalabad", "Kunduz", "Baghlan", "Ghazni", "Bamyan", "Nangarhar"],
+    "Andorra": ["Andorra la Vella", "Escaldes-Engordany", "Encamp", "Sant Julià de Lòria", "Escaldes", "La Massana", "Ordino", "Canillo"],
+    "Albania": ["Tirana", "Durrës", "Vlorë", "Shkodër", "Fier", "Elbasan", "Korçë", "Shijak", "Lushnjë", "Sarandë"],
+    "Algeria": ["Algiers", "Oran", "Constantine", "Annaba", "Blida", "Biskra", "Batna", "Sétif", "Chlef", "Tiaret"],
     "Angola": ["Luanda", "N'dalatando", "Huambo", "Lobito", "Kuito", "Benguela", "Malanje", "Cabinda", "Uige", "Caxito"],
     "Antigua and Barbuda": ["St. John's", "All Saints", "Liberta", "Osbourn", "Falmouth", "Willikies", "Bolands", "Parham", "John Hughes", "Yorks Village"],
     "Argentina": ["Buenos Aires", "Córdoba", "Rosario", "Mendoza", "La Plata", "San Miguel de Tucumán", "Mar del Plata", "Salta", "Santa Fe", "Corrientes"],
