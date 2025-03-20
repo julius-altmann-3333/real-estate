@@ -177,7 +177,6 @@ document.addEventListener("DOMContentLoaded", () => {
                         <button class="filter-button" data-filter="roof">Roof Type: ${property.roof}</button>
                         <button class="filter-button" data-filter="security">Security System: ${property.security}</button>
                         <button class="filter-button" data-filter="schools">Nearby Schools: ${property.schools}</button>
-                        <button class="filter-button" data-filter="internet">Internet Availability: ${property.internet}</button>
                         <button class="filter-button" data-filter="gym">Gym Availability: ${property.gym}</button>
                         <button class="filter-button" data-filter="storage">Storage Space: ${property.storage}</button>
                         <button class="filter-button" data-filter="shopping">Proximity to Shopping Malls: ${property.shopping}</button>
