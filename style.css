@@ -1,0 +1,32 @@
+select {
+      margin: 10px;
+      padding: 8px;
+      width: 200px;
+    }
+    #resultContainer {
+      margin-top: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      background-color: #f9f9f9;
+    }
+    .result-item {
+      display: flex;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+    .result-item img {
+      width: 150px;
+      height: auto;
+      margin-right: 20px;
+    }
+    .result-item div {
+      display: flex;
+      flex-direction: column;
+    }
+    .result-item h4 {
+      margin: 0;
+    }
+    .result-item p {
+      margin: 5px 0;
+    }
