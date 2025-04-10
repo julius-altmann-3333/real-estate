@@ -1,9 +1,9 @@
 // cityData.js
 const cityData = {    
-	"Afghanistan": ["Kabul", "Herat", "Mazar-i-Sharif", "Kandahar", "Jalalabad", "Kunduz", "Baghlan", "Ghazni", "Bamyan", "Nangarhar"],
-	"Andorra": ["Andorra la Vella", "Escaldes-Engordany", "Encamp", "Sant Julià de Lòria", "Escaldes", "La Massana", "Ordino", "Canillo"],
-	"Albania": ["Tirana", "Durrës", "Vlorë", "Shkodër", "Fier", "Elbasan", "Korçë", "Shijak", "Lushnjë", "Sarandë"],
-	"Algeria": ["Algiers", "Oran", "Constantine", "Annaba", "Blida", "Biskra", "Batna", "Sétif", "Chlef", "Tiaret"],
+    "Afghanistan": ["Kabul", "Herat", "Mazar-i-Sharif", "Kandahar", "Jalalabad", "Kunduz", "Baghlan", "Ghazni", "Bamyan", "Nangarhar"],
+    "Andorra": ["Andorra la Vella", "Escaldes-Engordany", "Encamp", "Sant Julià de Lòria", "Escaldes", "La Massana", "Ordino", "Canillo"],
+    "Albania": ["Tirana", "Durrës", "Vlorë", "Shkodër", "Fier", "Elbasan", "Korçë", "Shijak", "Lushnjë", "Sarandë"],
+    "Algeria": ["Algiers", "Oran", "Constantine", "Annaba", "Blida", "Biskra", "Batna", "Sétif", "Chlef", "Tiaret"],
     "Angola": ["Luanda", "N'dalatando", "Huambo", "Lobito", "Kuito", "Benguela", "Malanje", "Cabinda", "Uige", "Caxito"],
     "Antigua and Barbuda": ["St. John's", "All Saints", "Liberta", "Osbourn", "Falmouth", "Willikies", "Bolands", "Parham", "John Hughes", "Yorks Village"],
     "Argentina": ["Buenos Aires", "Córdoba", "Rosario", "Mendoza", "La Plata", "San Miguel de Tucumán", "Mar del Plata", "Salta", "Santa Fe", "Corrientes"],
@@ -63,7 +63,7 @@ const cityData = {
     "Gabon": ["Libreville", "Port-Gentil", "Franceville", "Moanda", "Oyayé", "Tchibanga", "Makokou", "Mouila", "Lambaréné", "Bitam"],
     "Gambia": ["Banjul", "Serekunda", "Brikama", "Bakau", "Latri Kunda", "Mansakonko", "Farafenni", "Kerewan", "Koina", "Janjanbureh"],
     "Georgia": ["Tbilisi", "Batumi", "Kutaisi", "Zugdidi", "Rustavi", "Zestaponi", "Gori", "Khashuri", "Senaki", "Telavi"],
-    "Germany": ["Berlin", "Hamburg", "Munich", "Cologne", "Frankfurt", "Stuttgart", "Düsseldorf", "Dortmund", "Essen", "Leipzig"],
+    "Germany": ["Berlin", "Hamburg", "München", "Köln", "Frankfurt am Main", "Stuttgart", "Düsseldorf", "Dortmund", "Essen", "Bremen", "Dresden", "Leipzig", "Hannover", "Nürnberg", "Duisburg", "Bochum", "Wuppertal", "Bielefeld", "Bonn", "Mannheim", "Karlsruhe", "Augsburg", "Wiesbaden", "Gelsenkirchen", "Mönchengladbach", "Hagen", "Rostock", "Kiel", "Chemnitz", "Braunschweig", "Fürth", "Oberhausen", "Regensburg", "Recklinghausen", "Erfurt", "Paderborn", "Lübeck", "Mainz", "Heidelberg", "Saarbrücken", "Moers", "Remscheid", "Solingen", "Düren", "Trier", "Cottbus", "Villingen-Schwenningen", "Kassel", "Zwickau", "Oldenburg", "Siegen", "Flensburg", "Rüsselsheim am Main", "Jena", "Göttingen", "Krefeld", "Leverkusen", "Aachen", "Bottrop", "Krefeld", "Reutlingen", "Esslingen am Neckar", "Koblenz", "Mühlheim an der Ruhr", "Halle (Saale)", "Lüdenscheid", "Worms", "Weimar", "Tübingen", "Gera", "Schwerin", "Lörrach", "Pforzheim", "Konstanz", "Dülmen", "Pirmasens", "Völklingen", "Minden", "Neuss", "Hilden", "Landshut", "Hof", "Norderstedt", "Ravensburg", "Stralsund", "Viersen", "Freiburg im Breisgau", "Erlangen", "Mülheim an der Ruhr", "Bamberg", "Würzburg", "Kaiserslautern", "Schwäbisch Gmünd", "Gütersloh", "Bad Honnef", "Garmisch-Partenkirchen", "Zweibrücken", "Lüneburg", "Filderstadt", "Rheine", "Teltow", "Potsdam", "Trostberg", "Lingen", "Halle", "Bad Homburg", "Husum", "Mühlacker", "Freising", "Buxtehude"],
     "Ghana": ["Accra", "Kumasi", "Tamale", "Sekondi-Takoradi", "Ashaiman", "Cape Coast", "Takoradi", "Ho", "Sunyani", "Koforidua"],
     "Greece": ["Athens", "Thessaloniki", "Patras", "Heraklion", "Larissa", "Volos", "Ioannina", "Chania", "Rhodes", "Kavala"],
     "Grenada": ["St. George's", "Gouyave", "Grenville", "Victoria", "Salisbury", "Munich", "Tanteen", "La Digue", "Carenage", "Beausejour"],
