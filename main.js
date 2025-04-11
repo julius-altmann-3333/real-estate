@@ -153,8 +153,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     <img src="${property.imageUrl}" alt="Property Image">
                     <div>
                         <h4 class="title">${property.title}</h4>
-                        <p class="country">Country: ${property.country}</p>
-                        <p class="city">City: ${property.city}</p>
+                        <p class="country">${property.country}, </p>
+                        <p class="city">${property.city}</p>
                         <p class="price">Price: ${property.price}</p>
                         <p class="type">Type: ${property.propertyType}</p>
                         <p class="bedrooms">Bedrooms: ${property.bedrooms}</p>
