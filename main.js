@@ -194,8 +194,6 @@ function updatePaginationButtons() {
                     <p class="bathrooms">Bathrooms: ${property.bathrooms}</p>
                     <p class="size">Size: ${property.squareFeet} sq ft</p>
                     <button class="filter-button" data-filter="internet">Internet: ${property.internet}</button>
-                    <button class="filter-button" data-filter="parking">Parking: ${property.parking}</button>
-                    <button class="filter-button" data-filter="garden">Garden: ${property.garden}</button>
                     <button class="filter-button" data-filter="parking">Parking Availability: ${property.parking}</button>
                     <button class="filter-button" data-filter="garden">Garden: ${property.garden}</button>
                     <button class="filter-button" data-filter="flooring">Flooring Type: ${property.flooring}</button>
