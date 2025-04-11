@@ -244,6 +244,29 @@ function updatePaginationButtons() {
                     <p class="bedrooms">Bedrooms: ${property.bedrooms}</p>
                     <p class="bathrooms">Bathrooms: ${property.bathrooms}</p>
                     <p class="size">Size: ${property.squareFeet} sq ft</p>
+                    <button class="filter-button" data-filter="internet">Internet: ${property.internet}</button>
+                    <button class="filter-button" data-filter="parking">Parking: ${property.parking}</button>
+                    <button class="filter-button" data-filter="garden">Garden: ${property.garden}</button>
+                    <button class="filter-button" data-filter="parking">Parking Availability: ${property.parking}</button>
+                    <button class="filter-button" data-filter="garden">Garden: ${property.garden}</button>
+                    <button class="filter-button" data-filter="flooring">Flooring Type: ${property.flooring}</button>
+                    <button class="filter-button" data-filter="publicTransport">Proximity to Public Transport: ${property.publicTransport}</button>
+                    <button class="filter-button" data-filter="elevator">Elevator Availability: ${property.elevator}</button>
+                    <button class="filter-button" data-filter="furnishing">Furnishing Status: ${property.furnishing}</button>
+                    <button class="filter-button" data-filter="view">View Type: ${property.view}</button>
+                    <button class="filter-button" data-filter="airConditioning">Air Conditioning: ${property.airConditioning}</button>
+                    <button class="filter-button" data-filter="heating">Heating Type: ${property.heating}</button>
+                    <button class="filter-button" data-filter="pool">Pool Availability: ${property.pool}</button>
+                    <button class="filter-button" data-filter="balcony">Balcony Availability: ${property.balcony}</button>
+                    <button class="filter-button" data-filter="roof">Roof Type: ${property.roof}</button>
+                    <button class="filter-button" data-filter="security">Security System: ${property.security}</button>
+                    <button class="filter-button" data-filter="schools">Nearby Schools: ${property.schools}</button>
+                    <button class="filter-button" data-filter="gym">Gym Availability: ${property.gym}</button>
+                    <button class="filter-button" data-filter="storage">Storage Space: ${property.storage}</button>
+                    <button class="filter-button" data-filter="shopping">Proximity to Shopping Malls: ${property.shopping}</button>
+                    <button class="filter-button" data-filter="hospital">Nearby Hospitals: ${property.hospital}</button>
+                    <button class="filter-button" data-filter="park">Nearby Parks: ${property.park}</button>
+                    <button class="filter-button" data-filter="beach">Proximity to Beach: ${property.beach}</button>
                 </div>
             `;
             resultItems.appendChild(resultItem);
