@@ -1,4 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
+    let currentPage = 1;
+    const resultsPerPage = 20;
+    let currentResults = [];
+    
     // Get references to the select elements and other necessary elements
     const countrySelect = document.getElementById("countrySelect");
     const citySelect = document.getElementById("citySelect");
@@ -48,6 +52,30 @@ document.addEventListener("DOMContentLoaded", () => {
     refreshBtn.addEventListener("click", () => {
         filterResults(); // Call the filterResults function to refresh the displayed results
     });
+
+    const prevPageBtn = document.getElementById("prevPageBtn");
+const nextPageBtn = document.getElementById("nextPageBtn");
+
+prevPageBtn.addEventListener("click", () => {
+    if (currentPage > 1) {
+        currentPage--;
+        displayPaginatedResults();
+    }
+});
+
+nextPageBtn.addEventListener("click", () => {
+    const totalPages = Math.ceil(currentResults.length / resultsPerPage);
+    if (currentPage < totalPages) {
+        currentPage++;
+        displayPaginatedResults();
+    }
+});
+
+function updatePaginationButtons() {
+    prevPageBtn.disabled = currentPage === 1;
+    nextPageBtn.disabled = currentPage >= Math.ceil(currentResults.length / resultsPerPage);
+}
+
 
 
     // Function to toggle visibility of filter buttons based on selected filters
@@ -135,7 +163,9 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
         // Display filtered results
-        displayResults(filteredResults);
+        currentPage = 1;
+        currentResults = filteredResults;
+        displayPaginatedResults();
 
         // After displaying results, call toggleButtonsVisibility to show the relevant filter buttons
         toggleButtonsVisibility();
@@ -191,6 +221,40 @@ document.addEventListener("DOMContentLoaded", () => {
             resultItems.innerHTML = '<p>No results found</p>';
         }
     }
+
+    function displayPaginatedResults() {
+    resultItems.innerHTML = ''; // Clear previous results
+
+    const startIndex = (currentPage - 1) * resultsPerPage;
+    const endIndex = startIndex + resultsPerPage;
+    const paginatedResults = currentResults.slice(startIndex, endIndex);
+
+    if (paginatedResults.length > 0) {
+        paginatedResults.forEach(property => {
+            const resultItem = document.createElement('div');
+            resultItem.className = 'result-item';
+            resultItem.innerHTML = `
+                <img src="${property.imageUrl}" alt="Property Image">
+                <div>
+                    <h4 class="title">${property.title}</h4>
+                    <p class="country">${property.country}, </p>
+                    <p class="city">${property.city}</p>
+                    <p class="price">Price: ${property.price}</p>
+                    <p class="type">Type: ${property.propertyType}</p>
+                    <p class="bedrooms">Bedrooms: ${property.bedrooms}</p>
+                    <p class="bathrooms">Bathrooms: ${property.bathrooms}</p>
+                    <p class="size">Size: ${property.squareFeet} sq ft</p>
+                </div>
+            `;
+            resultItems.appendChild(resultItem);
+        });
+    } else {
+        resultItems.innerHTML = '<p>No results found</p>';
+    }
+
+    updatePaginationButtons();
+}
+
 
     // Event listener for the search button
     searchBtn.addEventListener("click", filterResults);
