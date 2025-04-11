@@ -253,16 +253,6 @@ function renderPaginationNumbers() {
     }
 }
 
-
-       
-
-
-    updatePaginationButtons();
-    renderPaginationNumbers();
-
-}
-
-
     // Event listener for the search button
     searchBtn.addEventListener("click", filterResults);
 });
