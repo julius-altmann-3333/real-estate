@@ -1,6 +1,6 @@
 const realEstateData = [
     {
-        "imgUrl": "https://via.placeholder.com/250",
+        "imgUrl": "https://julius-altmann-3333.github.io/website-images/.jpg",
         "title": "Luxury Villa in Paris",
         "price": "$2,500,000",
         "description": "A stunning 6-bedroom villa with panoramic views of Paris, featuring luxury amenities.",
