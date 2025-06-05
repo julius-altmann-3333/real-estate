@@ -183,7 +183,9 @@ function updatePaginationButtons() {
             const resultItem = document.createElement('div');
             resultItem.className = 'result-item';
             resultItem.innerHTML = `
-                <img src="${property.imgUrl}" alt="Property Image">
+                <img src="${property.imgUrl}">
+                <img src="${property.imgUrl2}">
+                <img src="${property.imgUrl3}">
                 <div>
                     <h4 class="title">${property.title}</h4>
                     <p class="country">${property.country}, </p>
