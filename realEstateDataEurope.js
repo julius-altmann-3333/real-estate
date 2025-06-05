@@ -1,8 +1,8 @@
 const realEstateData = [
     {
-        "imageUrl": "https://julius-altmann-3333.github.io/website-images/real-estate-1.png",
-        "imageUrl2": "https://julius-altmann-3333.github.io/website-images/real-estate-2.png",
-        "imageUrl3": "https://julius-altmann-3333.github.io/website-images/real-estate-1.png",
+        "imgUrl": "https://julius-altmann-3333.github.io/website-images/real-estate-1.png",
+        "imgUrl2": "https://julius-altmann-3333.github.io/website-images/real-estate-2.png",
+        "imgUrl3": "https://julius-altmann-3333.github.io/website-images/real-estate-1.png",
         "title": "Luxury Villa in Paris",
         "price": "$2,500,000",
         "description": "A stunning 6-bedroom villa with panoramic views of Paris, featuring luxury amenities.",
@@ -36,7 +36,7 @@ const realEstateData = [
         "park": "Yes"
     },
     {
-        "imageUrl": "https://via.placeholder.com/250",
+        "imgUrl": "https://via.placeholder.com/250",
         "title": "Modern Apartment in Berlin",
         "price": "$550,000",
         "description": "A stylish 3-bedroom apartment located in the heart of Berlin with contemporary features.",
@@ -70,7 +70,7 @@ const realEstateData = [
         "park": "No"
     },
     {
-        "imageUrl": "https://via.placeholder.com/250",
+        "imgUrl": "https://via.placeholder.com/250",
         "title": "Beachfront Apartment in Barcelona",
         "price": "$950,000",
         "description": "A beautiful 2-bedroom beachfront apartment offering stunning views of the Mediterranean.",
@@ -104,7 +104,7 @@ const realEstateData = [
         "park": "Yes"
     },
     {
-        "imageUrl": "https://via.placeholder.com/250",
+        "imgUrl": "https://via.placeholder.com/250",
         "title": "Luxury Loft in Amsterdam",
         "price": "$1,800,000",
         "description": "A chic 4-bedroom loft in Amsterdam with an industrial design and high-end amenities.",
@@ -138,7 +138,7 @@ const realEstateData = [
         "park": "Yes"
     },
     {
-        "imageUrl": "https://via.placeholder.com/250",
+        "imgUrl": "https://via.placeholder.com/250",
         "title": "Penthouse in London",
         "price": "$3,000,000",
         "description": "A luxurious penthouse in central London with amazing views of the city skyline.",
@@ -172,7 +172,7 @@ const realEstateData = [
         "park": "Yes"
     },
     {
-        "imageUrl": "https://via.placeholder.com/250",
+        "imgUrl": "https://via.placeholder.com/250",
         "title": "Charming Cottage in Edinburgh",
         "price": "$650,000",
         "description": "A quaint 3-bedroom cottage with a picturesque garden and cozy interior, located in Edinburgh.",
@@ -206,7 +206,7 @@ const realEstateData = [
         "park": "Yes"
     },
     {
-        "imageUrl": "https://via.placeholder.com/250",
+        "imgUrl": "https://via.placeholder.com/250",
         "title": "Contemporary Flat in Milan",
         "price": "$750,000",
         "description": "A sleek 2-bedroom apartment in Milan, offering modern design and a prime city location.",
@@ -240,7 +240,7 @@ const realEstateData = [
         "park": "No"
     },
     {
-        "imageUrl": "https://via.placeholder.com/250",
+        "imgUrl": "https://via.placeholder.com/250",
         "title": "Elegant Townhouse in Brussels",
         "price": "$1,100,000",
         "description": "A stylish 4-bedroom townhouse in central Brussels with a spacious layout and beautiful interior.",
@@ -274,7 +274,7 @@ const realEstateData = [
         "park": "Yes"
     },
     {
-        "imageUrl": "https://via.placeholder.com/250",
+        "imgUrl": "https://via.placeholder.com/250",
         "title": "Historic Property in Rome",
         "price": "$2,000,000",
         "description": "A beautiful 3-bedroom historic property located near the Colosseum, blending old-world charm and modern amenities.",
